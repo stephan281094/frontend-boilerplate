@@ -150,10 +150,6 @@
     <h1>Forms</h1>
     <form>
       <fieldset>
-        <!--
-        Every fieldset must contain a legend. IE barfs if it's not there.
-        It's no fun.
-        -->
         <legend>Legend Example</legend>
 
         <div>
@@ -345,9 +341,6 @@
 </section>
 
 <section>
-  <!--
-  http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-samp-element
-  -->
   <samp>
     <pre>
         /Sites/html master  ☠ ☢
@@ -375,24 +368,6 @@
   </section>
   <section>
     <h1>Tables</h1>
-      <!--
-      From the HTML spec (http://www.w3.org/TR/html401/struct/tables.html)
-
-      TFOOT must appear before TBODY within a TABLE definition so that user agents can
-      render the foot before receiving all of the (potentially numerous) rows of data.
-      The following summarizes which tags are required and which may be omitted:
-
-      The TBODY start tag is always required except when the table contains only one
-      table body and no table head or foot sections. The TBODY end tag may always be
-      safely omitted.
-
-      The start tags for THEAD and TFOOT are required when the table head and foot sections
-      are present respectively, but the corresponding end tags may always be safely
-      omitted.
-
-      Conforming user agent parsers must obey these rules for reasons of backward
-      compatibility.
-      -->
     <table>
       <caption>This is a caption for a table</caption>
       <thead>
