@@ -1,4 +1,5 @@
 var path = require('path')
+var webpack = require('webpack')
 
 module.exports = {
   entry: './src/index.js',
@@ -18,7 +19,10 @@ module.exports = {
   postcss: function () {
     return [
       require('autoprefixer'),
-      require('precss')
+      require('precss'),
+      require('postcss-partial-import')({
+        addDependencyTo: webpack
+      })
     ]
   }
 }
