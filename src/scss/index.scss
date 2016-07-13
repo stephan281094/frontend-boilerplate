@@ -14,3 +14,9 @@
 @import '_4.elements.link.scss';
 @import '_4.elements.list.scss';
 @import '_4.elements.page.scss';
+
+/* Custom styling that should not be included in your project */
+.o-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
