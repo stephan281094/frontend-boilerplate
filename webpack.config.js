@@ -16,13 +16,13 @@ module.exports = {
       }
     ]
   },
-  postcss: function () {
+  postcss: function (webpack) {
     return [
-      require('autoprefixer'),
-      require('precss'),
-      require('postcss-partial-import')({
+      require('postcss-import')({
         addDependencyTo: webpack
-      })
+      }),
+      require('autoprefixer'),
+      require('precss')
     ]
   }
 }
