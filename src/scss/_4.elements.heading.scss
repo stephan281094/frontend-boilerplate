@@ -1,8 +1,18 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 1.5em 0;
+}
+
+h1 {
+  font-size: 1.8750em;
+  line-height: 1.15em;
+  margin-top: .8em;
+  margin-bottom: 0;
+  font-family: 'Bitter', sans-serif;
 }

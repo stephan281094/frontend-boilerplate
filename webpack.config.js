@@ -12,17 +12,13 @@ module.exports = {
     loaders: [
       {
         test: /\.scss/,
-        loader: 'style!css!postcss!'
+        loader: 'style!css!sass!postcss!'
       }
     ]
   },
   postcss: function (webpack) {
     return [
-      require('postcss-import')({
-        addDependencyTo: webpack
-      }),
-      require('autoprefixer'),
-      require('precss')
+      require('autoprefixer')
     ]
   }
 }
