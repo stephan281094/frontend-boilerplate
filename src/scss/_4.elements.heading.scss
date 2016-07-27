@@ -1,18 +1,50 @@
 body {
-  font-size: 16px;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font: 16px / 1.5 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-p {
-  font-size: 1em;
-  line-height: 1.5em;
-  margin: 0 0 1.5em 0;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bitter', serif;
 }
 
-h1 {
-  font-size: 1.8750em;
-  line-height: 1.15em;
-  margin-top: .8em;
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0;
-  font-family: 'Bitter', sans-serif;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.7142857143;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 2.4;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: .75rem;
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  line-height: 2;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  color: #444;
 }
