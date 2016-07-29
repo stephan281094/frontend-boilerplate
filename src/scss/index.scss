@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans');
 
-@import '_1.settings.global.scss';
-@import '_1.settings.color.scss';
+@import '1.settings/global';
+@import '1.settings/color';
 
-@import '_2.tools.mixin.scss';
+@import '2.tools/mixin';
 
-@import '_3.generic.box-sizing.scss';
-@import '_3.generic.normalize.scss';
-@import '_3.generic.reset.scss';
-@import '_3.generic.shared.scss';
+@import '3.generic/box-sizing';
+@import '3.generic/normalize';
+@import '3.generic/reset';
+@import '3.generic/shared';
 
-@import '_4.elements.form.scss';
-@import '_4.elements.heading.scss';
-@import '_4.elements.image.scss';
-@import '_4.elements.link.scss';
-@import '_4.elements.list.scss';
-@import '_4.elements.page.scss';
+@import '4.elements/form';
+@import '4.elements/heading';
+@import '4.elements/image';
+@import '4.elements/link';
+@import '4.elements/list';
+@import '4.elements/page';
 
 /* Custom styling that should not be included in your project */
 .o-wrapper {
