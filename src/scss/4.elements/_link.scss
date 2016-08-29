@@ -1,5 +1,6 @@
 a {
-  color: $color-brand;
+  color: $color-link;
+  text-decoration: inherit;
 
   &:hover {
     text-decoration: underline;
