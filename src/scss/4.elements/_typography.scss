@@ -49,6 +49,10 @@ h6 {
   color: #444;
 }
 
+p {
+  word-break: break-word;
+}
+
 blockquote {
   box-shadow: inset 3px 0 0 0 $color-brand;
   background-color: rgba($color-brand, .05);
