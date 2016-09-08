@@ -1,0 +1,13 @@
+// Typography ------------------------------------------------------------------
+$line-height:  1.5;
+$font-size:    16px;
+$font-heading: 'Bitter', serif;
+$font-copy:    'Open Sans', 'Helvetica Neue', sans-serif;
+
+// Layout ----------------------------------------------------------------------
+$spacing-unit: $line-height * $font-size;
+
+// Colors ----------------------------------------------------------------------
+$color-brand: #c00;
+$color-copy:  #111;
+$color-link:  $color-brand;

@@ -1,0 +1,14 @@
+h1,
+ul, ol, dl,
+blockquote, p, address,
+hr,
+table,
+fieldset, figure,
+pre {
+  margin-bottom: $spacing-unit;
+}
+
+ul, ol,
+dd {
+  margin-left: $spacing-unit;
+}

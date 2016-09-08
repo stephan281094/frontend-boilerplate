@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans');
 
-@import '1.settings/global';
-@import '1.settings/color';
+@import 'settings';
+@import 'tools';
 
-@import '2.tools/mixin';
+@import 'generic/box-sizing';
+@import 'generic/normalize';
+@import 'generic/reset';
+@import 'generic/shared';
 
-@import '3.generic/box-sizing';
-@import '3.generic/normalize';
-@import '3.generic/reset';
-@import '3.generic/shared';
-
-@import '4.elements/form';
-@import '4.elements/image';
-@import '4.elements/link';
-@import '4.elements/list';
-@import '4.elements/page';
-@import '4.elements/typography';
+@import 'elements/form';
+@import 'elements/image';
+@import 'elements/link';
+@import 'elements/list';
+@import 'elements/page';
+@import 'elements/typography';
 
 /* Custom styling that should not be included in your project */
 .o-wrapper {

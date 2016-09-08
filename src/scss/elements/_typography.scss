@@ -1,5 +1,9 @@
 body {
-  font: 16px / 1.5 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: $color-copy;
+  font-size: $font-size;
+  line-height: $line-height;
+  font-family: $font-copy;
+  @include font-smoothing();
 }
 
 h1,
@@ -7,7 +11,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Bitter', serif;
+  font-family: $font-heading;
 }
 
 h2,
@@ -41,7 +45,7 @@ h5 {
 
 h6 {
   font-size: .75rem;
-  font-family: 'Helvetica Neue';
+  font-family: $font-copy;
   font-weight: 500;
   line-height: 2;
   text-transform: uppercase;

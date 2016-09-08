@@ -1,0 +1,16 @@
+ul,
+ol {
+  margin-top: $spacing-unit;
+}
+
+li {
+  line-height: $spacing-unit;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
