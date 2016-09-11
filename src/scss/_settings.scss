@@ -6,6 +6,7 @@ $font-copy:    'Open Sans', 'Helvetica Neue', sans-serif;
 
 // Layout ----------------------------------------------------------------------
 $spacing-unit: $line-height * $font-size;
+$spacing-unit-small: $spacing-unit * .75;
 
 // Colors ----------------------------------------------------------------------
 $color-brand: #c00;
