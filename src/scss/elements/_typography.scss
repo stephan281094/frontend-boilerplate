@@ -1,8 +1,7 @@
 body {
+  font-size: 16px;
+  line-height: 1.5;
   color: $color-copy;
-  font-size: $font-size;
-  line-height: $line-height;
-  font-family: $font-copy;
   @include font-smoothing();
 }
 
@@ -10,17 +9,26 @@ h1,
 h2,
 h3,
 h4,
-h5 {
-  font-family: $font-heading;
+h5,
+h6,
+p {
   padding: 0 $spacing-unit-small;
 }
 
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 0;
+  font-family: $font-heading;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.33333333;
 }
 
 h2 {
@@ -35,34 +43,44 @@ h3 {
 
 h4 {
   font-size: 1.25rem;
-  line-height: 2.4;
+  line-height: 1.2;
 }
 
 h5 {
   font-size: 1rem;
   line-height: 1.5;
-  font-weight: 600;
 }
 
 h6 {
-  font-size: .75rem;
+  font-size: 0.875rem;
   font-family: $font-copy;
+  line-height: 1.7142857143;
+  margin-bottom: 0;
   font-weight: 500;
-  line-height: 2;
   text-transform: uppercase;
   letter-spacing: .25rem;
   color: #444;
-  padding: 0 $spacing-unit-small;
 }
 
 p {
+  font-size: 1rem;
   word-break: break-word;
-  padding: 0 $spacing-unit-small;
+}
+
+small {
+  font-size: 0.875rem;
+  line-height: 1.7142857143
 }
 
 blockquote {
   box-shadow: inset 3px 0 0 0 $color-brand;
   background-color: rgba($color-brand, .05);
-  padding-top: $spacing-unit-small;
+  padding-top: $spacing-unit;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 64em) {
+ body {
+  font-size: 18px;
+ }
 }
