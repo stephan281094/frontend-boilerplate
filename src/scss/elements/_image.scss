@@ -3,14 +3,15 @@ figure {
   display: flex;
   flex-direction: column;
   text-align: center;
-  min-height: 100px;
+  justify-content: center;
+  min-height: $spacing-unit * 4;
 }
 
 img {
   position: relative;
   display: block;
   height: auto;
-  min-width: 200px;
+  min-width: $spacing-unit * 8;
   max-width: 100%;
   margin: auto;
 }
