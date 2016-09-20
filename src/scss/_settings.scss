@@ -12,3 +12,7 @@ $spacing-unit-small: $spacing-unit * .75;
 $color-brand: #c00;
 $color-copy:  #111;
 $color-link:  $color-brand;
+
+// Tables ----------------------------------------------------------------------
+$table-row-height: $spacing-unit * 2 - 1px;
+$row-border-color: #ddd;
