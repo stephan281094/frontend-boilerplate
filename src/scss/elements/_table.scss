@@ -1,5 +1,5 @@
-$table-row-height: $spacing-unit * 2 - 1px;
-$row-border-color: #ddd;
+$table-row-height: $spacing-unit * 2 - 1px !default;
+$row-border-color: #ddd !default;
 
 table {
   text-align: left;
