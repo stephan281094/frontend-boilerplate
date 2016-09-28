@@ -16,4 +16,15 @@ button {
   &:active {
     background: darken($color-brand, 10%);
   }
+
+  &[disabled] {
+    cursor: not-allowed;
+    color: rgba(#fff, 0.75);
+    background-color: desaturate($color-brand, 50%);
+
+    &:hover,
+    &:active {
+      background-color: desaturate($color-brand, 50%);
+    }
+  }
 }
