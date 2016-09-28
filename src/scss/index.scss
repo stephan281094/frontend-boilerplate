@@ -8,6 +8,7 @@
 @import 'generic/reset';
 @import 'generic/shared';
 
+@import 'elements/button';
 @import 'elements/form';
 @import 'elements/image';
 @import 'elements/link';
@@ -21,4 +22,5 @@
   max-width: 700px;
   margin: 0 auto;
   overflow: hidden;
+  padding: $spacing-unit 0;
 }
