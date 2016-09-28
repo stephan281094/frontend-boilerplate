@@ -1,14 +1,13 @@
 {
-  "name": "styleguide",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "inno-frontend-boilerplate",
+  "version": "0.1.0",
+  "description": "A frontend boilerplate by Stephan de Vries",
+  "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --inline --hot",
     "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "Stephan de Vries <stephan281094@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -20,9 +19,7 @@
     "postcss-loader": "^0.9.1",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "webpack": "^1.13.1"
   }
 }
