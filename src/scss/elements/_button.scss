@@ -3,10 +3,10 @@ button {
   background: $color-brand;
   border: 0;
   padding: .5rem 1rem;
-  outline: 0;
   cursor: default;
   text-transform: uppercase;
-  font-size: .75em;
+  font-size: .75rem;
+  margin-bottom: 14px;
   @include no-select();
 
   &:hover {
